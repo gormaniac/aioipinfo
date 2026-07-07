@@ -6,3 +6,5 @@ docs/.doctrees/
 
 # Delete this for a real project
 Pipfile.lock
+
+.DS_Store
