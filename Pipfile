@@ -4,16 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+aiohttp = "*"
 
 [dev-packages]
 black = "*"
 build = "*"
 pylint = "*"
 setuptools = "*"
-sphinx = "*"
-sphinx-rtd-theme = "*"
-tomlkit = "*"
 twine = "*"
+tomlkit = "*"
+shibuya = "*"
+sphinx = ">=8.0.0"
 
 [requires]
 python_version = "3.11"
